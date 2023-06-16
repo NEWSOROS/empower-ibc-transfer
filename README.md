@@ -292,6 +292,12 @@ osmosisd keys add osmo-wallet --recover
 ```
 https://faucet.osmotest5.osmosis.zone/
 ```
+## Create channel
+```
+hermes create channel --a-chain circulus-1 --b-chain osmo-test-5 --a-port transfer --b-port transfer --order unordered --new-client-connection
+hermes create channel --a-chain circulus-1 --b-chain elgafar-1 --a-port transfer --b-port transfer --order unordered --new-client-connection
+hermes create channel --a-chain circulus-1 --b-chain theta-testnet-001 --a-port transfer --b-port transfer --order unordered --new-client-connection
+```
 
 ## Update clients example
 ```
